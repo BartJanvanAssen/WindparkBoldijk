@@ -1,0 +1,43 @@
+
+const faqs = [
+  {
+    "question": "Wat is een energiecoöperatie?",
+    "answer": "Een energiecoöperatie is een lokale organisatie waarin mensen samenwerken om duurzame energieprojecten te ontwikkelen, zoals zonnepanelen of windmolens. Het doel is om lokaal opgewekte groene energie te stimuleren en de gemeenschap te betrekken bij de overgang naar duurzame energie."
+  },
+  {
+    "question": "Hoe kan ik lid worden van de energiecoöperatie?",
+    "answer": "Om lid te worden, kun je je registreren op onze website of neem contact op met ons. Leden hebben vaak inspraak in beslissingen, ontvangen voordelen zoals lagere energiekosten, en dragen bij aan een duurzamere gemeenschap."
+  },
+  {
+    "question": "Welke duurzame energieprojecten ondersteunt de coöperatie?",
+    "answer": "Onze coöperatie ondersteunt diverse duurzame energieprojecten, waaronder zonnepanelen op daken, windenergie, en energieopslaginitiatieven. Op onze website vind je gedetailleerde informatie over lopende en toekomstige projecten."
+  },
+  {
+    "question": "Wat zijn de voordelen van lidmaatschap?",
+    "answer": "Als lid kun je profiteren van lagere energiekosten, deelnemen aan besluitvorming binnen de coöperatie, en ontvang je mogelijk een aandeel in de opbrengsten van duurzame energieprojecten. Bovendien draag je bij aan een groenere en duurzamere gemeenschap."
+  },
+  {
+    "question": "Hoe kan ik investeren in duurzame energieprojecten van de coöperatie?",
+    "answer": "Neem contact met ons op voor informatie over investeringsmogelijkheden. Als lid kun je in sommige gevallen financieel bijdragen aan projecten en de voordelen van de opbrengsten ervan delen."
+  },
+  {
+    "question": "Welke stappen onderneemt de coöperatie om de lokale gemeenschap te betrekken bij duurzame energie?",
+    "answer": "We organiseren regelmatig evenementen, workshops en informatiesessies om de gemeenschap bewust te maken van duurzame energie en hen te betrekken bij onze projecten. Houd onze communicatiekanalen in de gaten voor updates over komende evenementen."
+  },
+  {
+    "question": "Hoe kan ik mijn energieverbruik verminderen?",
+    "answer": "Op onze website vind je tips en informatie over energiebesparing. Daarnaast bieden we mogelijkheden voor leden om samen te werken aan initiatieven die energie-efficiëntie bevorderen, zoals gezamenlijke aankoop van energiezuinige apparatuur."
+  },
+  {
+    "question": "Wat gebeurt er als ik verhuis? Kan ik lid blijven van de coöperatie?",
+    "answer": "Ja, in veel gevallen kun je lid blijven, zelfs als je verhuist. Neem contact met ons op voor meer informatie en om ervoor te zorgen dat je de voordelen van het lidmaatschap kunt behouden."
+  },
+  {
+    "question": "Hoe wordt de opbrengst van duurzame energieprojecten verdeeld onder de leden?",
+    "answer": "De verdeling van opbrengsten wordt bepaald door de coöperatieve structuur en kan variëren per project. Details hierover worden gedeeld met de leden tijdens ledenvergaderingen en via onze communicatiekanalen."
+  },
+  {
+    "question": "Hoe kan ik betrokken raken bij de besluitvorming binnen de coöperatie?",
+    "answer": "Leden hebben vaak de mogelijkheid om deel te nemen aan ledenvergaderingen, waar besluiten worden genomen over belangrijke kwesties. Daarnaast kunnen leden zich kandidaat stellen voor bestuursfuncties en actief deelnemen aan commissies. Neem contact op voor meer informatie over de mogelijkheden om betrokken te raken."
+  }
+]
