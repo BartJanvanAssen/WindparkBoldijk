@@ -4,7 +4,8 @@ import { useEffect } from "react";
 
 export default function EmailContact() {
     useEffect(() => {
-        window.Tally?.loadEmbeds();
+        // Add type declaration for window.Tally
+        (window as any).Tally?.loadEmbeds();
     })
     return (
       <div className=" py-16 sm:py-24 lg:py-32">
@@ -34,6 +35,7 @@ export default function EmailContact() {
               </button> */}
               <Script src="https://tally.so/widgets/embed.js" />
 
+              {/* @ts-ignore */}
               <iframe data-tally-src="https://tally.so/embed/3EgRPX?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="282" frameborder="0" marginheight="0" marginwidth="0" title="Nieuwsbrief Boldijk"></iframe>
             </div>
             <p className="mt-4 text-sm/6 text-gray-900">
