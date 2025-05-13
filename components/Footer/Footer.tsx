@@ -4,12 +4,11 @@ import ProjectLogo from '../../public/project-logo.png'
 
   const navigation = {
     main: [
-      { name: 'Ons verhaal', href: '/ons-verhaal' },
-      { name: 'Cooperatie', href: '/cooperatie' },
-      { name: 'Projecten', href: '/projecten' },
+      { name: 'Home', href: '/' },
       { name: 'Blog', href: '/blog' },
+      { name: 'Vraag & antwoord', href: '/veel-gestelde-vragen' },
       { name: 'Contact', href: '/contact' },
-      { name: 'Privacy Verklaring', href: 'https://energiekdaarle.nl/wp-content/uploads/2021/10/Energiek-Daarle-sjabloon-privacyverklaring.pdf' },
+      // { name: 'Privacy Verklaring', href: 'https://energiekdaarle.nl/wp-content/uploads/2021/10/Energiek-Daarle-sjabloon-privacyverklaring.pdf' },
     ],
     social: [
       {
@@ -63,7 +62,7 @@ import ProjectLogo from '../../public/project-logo.png'
             ))}
           </div> */}
           <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-            &copy; {new Date().getFullYear()} Coöperatie Energiek Daarle U.A. Alle rechten voorbehouden.
+            &copy; {new Date().getFullYear()} Coöperatie Groene Noabers U.A. Alle rechten voorbehouden.
           </p>
         </div>
       </footer>

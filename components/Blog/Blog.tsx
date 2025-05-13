@@ -1,14 +1,17 @@
 import { BlogPost } from "@/app/types/graph"
 
   
-  export default function Blog({items}: {items: BlogPost[]}) {
+  export default function Blog({items, showMore}: {items: BlogPost[], showMore: boolean}) {
     return (
       <div className="relative px-6 pb-20 pt-16 lg:px-8 lg:pb-28 lg:pt-24">
       <div className="relative mx-auto max-w-7xl">
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Nieuws berichten </h2>
           <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-            Hier vind je alle nieuws berichten van Energiek Daarle die gaan over Daarle, updates over projecten en relevante nieuws berichten van de gemeente.
+            {showMore ?
+            "Hier vind je de laatste nieuwsberichten" :
+            "Hier vind je alle nieuws berichten die gaan over het Windpark de Boldijk."
+            }
           </p>
         </div>
         <div className="mx-auto mt-12 grid max-w-lg gap-10 lg:max-w-none lg:grid-cols-3">
@@ -40,6 +43,13 @@ import { BlogPost } from "@/app/types/graph"
             </div>
           ))}
         </div>
+        {showMore && (
+          <div className="mt-12 flex justify-center">
+            <a href="/blog" className="rounded-md bg-lime-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-lime-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-600">
+              Meer nieuws berichten
+            </a>
+          </div>
+        )}
       </div>
     </div>
 
