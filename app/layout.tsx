@@ -5,8 +5,8 @@ import Footer from '@/components/Footer/Footer'
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
-  title: 'Energiek Daarle',
-  description: 'Locale energiecooperatie in Daarle voor en door inwoners',
+  title: 'Windpark de Boldijk',
+  description: 'Windenegie door locale inwoners van Daarle en Daarlerveen.',
 }
 
 export default function RootLayout({
