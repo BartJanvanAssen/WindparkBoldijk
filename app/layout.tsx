@@ -6,7 +6,7 @@ import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'Windpark de Boldijk',
-  description: 'Windenegie door locale inwoners van Daarle en Daarlerveen.',
+  description: 'Windenergie door lokale inwoners van Daarle en Daarlerveen.',
 }
 
 export default function RootLayout({
