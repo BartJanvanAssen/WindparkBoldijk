@@ -19,7 +19,7 @@ const nextConfig = {
             },
             {
                 source: '/logboek-epd',
-                destination: 'https://forms.gle/5Dk8NQQmmNm3VWnN6',
+                destination: 'https://docs.google.com/forms/d/e/1FAIpQLSeVuvz3FQd4Hz9hW9ymJELPuXiPk5C1LF45YpG-DZ42qENC1w/viewform?usp=header',
                 permanent: false
             },
         ]
